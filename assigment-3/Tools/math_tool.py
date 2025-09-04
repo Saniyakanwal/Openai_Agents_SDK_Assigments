@@ -9,7 +9,7 @@ def plus(n1:int,n2:int) -> str:
         n2:int
     return str    
     """
-    return f"Your answer is.... {n1 + n2}"
+    return n1 + n2
 
 @function_tool
 def multiply(n1:int,n2:int) -> str:
@@ -20,4 +20,4 @@ def multiply(n1:int,n2:int) -> str:
         n2:int
     return str    
     """
-    return f"Your answer is... {n1 * n2}"
+    return n1 * n2
